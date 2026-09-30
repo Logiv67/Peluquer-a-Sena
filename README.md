@@ -1,4 +1,4 @@
-# Peluquer-a-Sena
+# Peluqueria-Sena
 Peluquería con node, MySQL, JavaScript
 05-09-2026 se creó los requisitos funcionales
 
