@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3333;
 
-// Mi dleware
+// Midleware
 app.use(cors({
     origin: '*', // Cambiar ['http://guillodelapena.xo.je/evidencias/', 'http://yo.com'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
@@ -16,7 +16,6 @@ app.use(cors({
   // Middleware para parseo de solicitudes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 // Rutas 
 //app.use('/', rutacliente);
 //app.use('/seguridad', rutaadmin);
